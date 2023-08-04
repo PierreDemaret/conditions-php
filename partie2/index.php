@@ -1,5 +1,10 @@
 <?php
-    $isEasy = false;
+    $isEasy = true;
+    if($isEasy == true){
+        $result = "C'est facile";
+    } else {
+        $result = "C'est difficile";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -22,12 +27,7 @@
         </h3>
         <div>
             <?php
-            //($isEasy == true) <=> ($isEasy)
-                if($isEasy == true){
-                    echo "C'est facile";
-                }else{
-                    echo "C'est difficile";
-                }
+                echo $result;
             ?>
         </div>
     </main>

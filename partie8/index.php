@@ -1,5 +1,5 @@
 <?php
-$age = 16;
+$age = rand(1, 100);
 ?>
 <!DOCTYPE html>
 <html lang="fr">

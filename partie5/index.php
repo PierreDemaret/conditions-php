@@ -1,5 +1,12 @@
 <?php
-    $gender = true
+    $gender = false;
+    // true = développeuse
+    // false = développeur
+    if($gender != true){
+        $result = "C'est une développeuse !!!";
+    }else{
+        $result = "C'est un développeur !!!";
+    }
     ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,11 +28,7 @@
         </h3>
         <div>
             <?php
-                if($gender != true){
-                    echo "C'est une développeuse !!!";
-                }else{
-                    echo "C'est un développeur !!!";
-                }
+                echo $result;
             ?>
         </div>
     </main>

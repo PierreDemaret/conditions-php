@@ -24,7 +24,7 @@ $age = 16;
             <?php
                 if($age < 18){
                     echo "vous êtes mineur";
-                } else{
+                } else {
                     echo "Vous êtes majeur";
                 }
             ?>
