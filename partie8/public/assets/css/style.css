@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: rgb(159, 74, 238);
+  height: 30vh;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+main h3 {
+  width: 100%;
+  text-align: center;
+}
+main div {
+  background-color: rgb(186, 176, 163);
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+}
